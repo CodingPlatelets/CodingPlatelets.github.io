@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Platelets Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Aug 2021 22:50:04 +0800</lastBuildDate><atom:link href="https://wkedward.asia/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Aug 2021 16:04:19 +0800</lastBuildDate><atom:link href="https://wkedward.asia/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grpc</title>
+      <link>https://wkedward.asia/p/grpc/</link>
+      <pubDate>Sun, 08 Aug 2021 16:04:19 +0800</pubDate>
+      
+      <guid>https://wkedward.asia/p/grpc/</guid>
+      <description>记录一次grpc的使用经历 这是我第一次听说grpc，发现原来是一个微服务之间的通讯协议，顿时来了兴趣。微服务很早之前就想搞了，但是无奈没有契机和方案来实现。token这边也没有使用微服务的项目，索性心一横，这次就用grpc开发公司的项目算了。于是我就这样上了grpc的道路。顺便吐槽一下，千万别用go-zero框架，他的文档超级烂）我们的项目使用的是grpc1.39，这个版本的grpc应该说是比较稳定的，在介绍项目之前先来聊聊啥是grpc吧。
+ In gRPC, a client application can directly call a method on a server application on a different machine as if it were a local object, making it easier for you to create distributed applications and services. As in many RPC systems, gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. On the server side, the server implements this interface and runs a gRPC server to handle client calls.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://wkedward.asia/p/about/</link>
@@ -22,7 +32,7 @@
       <pubDate>Sat, 07 Aug 2021 21:49:14 +0800</pubDate>
       
       <guid>https://wkedward.asia/p/here-are-my-languages/</guid>
-      <description>Here are my languages Console.WriteLine(&amp;#34;Hello World!&amp;#34;); System.out.Println(&amp;#34;Hello world&amp;#34;); fmt.Println(&amp;#34;Hello world&amp;#34;) print(&amp;#34;Hello world&amp;#34;) </description>
+      <description>Here are my languages Console.WriteLine(&amp;#34;Hello World!&amp;#34;); System.out.println(&amp;#34;Hello world&amp;#34;); fmt.Println(&amp;#34;Hello world&amp;#34;) print(&amp;#34;Hello world&amp;#34;) </description>
     </item>
     
   </channel>
